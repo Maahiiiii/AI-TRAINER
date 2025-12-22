@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "ai-fitness-trainer",
+    "slug": "ai-fitness-trainer",
+    "scheme": "ai-fitness-trainer",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to analyze your workout form in real-time.",
+        "NSMicrophoneUsageDescription": "This app needs microphone access for voice commands."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "CAMERA",
+        "RECORD_AUDIO"
+      ],
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.anonymous.aifitnesstrainer"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
