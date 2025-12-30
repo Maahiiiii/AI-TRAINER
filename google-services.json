@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1057242418550",
+    "project_id": "advi-fc220",
+    "storage_bucket": "advi-fc220.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1057242418550:android:08feebbe13d8af7e69be57",
+        "android_client_info": {
+          "package_name": "fizi.co.in"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1057242418550-jkpku28hbooed0cpjkblnmo7opa4q2i5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcM2kKH_ELxYMdWPrRFC0TmPNGDXdjeLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1057242418550-3bohkrf1l81n9uv72ghr46soshm2qn9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

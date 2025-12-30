@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8081:8081" # Metro Bundler
+      - "19000:19000" # Expo
+      - "19006:19006" # Web
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.5 # REPLACE WITH YOUR LOCAL IP
+      - EXPO_DEVTOOLS_LISTEN_ADDRESS=0.0.0.0
+    command: npx expo start --lan
